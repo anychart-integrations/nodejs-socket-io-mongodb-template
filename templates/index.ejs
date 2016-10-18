@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Title}}</title>
+    <script src="https://cdn.anychart.com/js/latest/anychart-bundle.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.anychart.com/css/latest/anychart-ui.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<div id="container"></div>
+<script>
+    anychart.onDocumentReady(function() {
+        // Init first chart view
+        var chart = anychart.fromJson(<%- chart %>);
+        chart.draw();
+
+        // Update chart with new data from server
+        var socket = io();
+        socket.on('update', function(data){
+            chart.data(data);
+        });
+    });
+</script>
+</body>
+</html>
