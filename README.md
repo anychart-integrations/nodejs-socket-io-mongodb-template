@@ -2,7 +2,7 @@
 NodeJS basic template
 =========================
 
-This example shows how to run Anychart library with NodeJS and MongoDB.
+This example shows how to run Anychart library with NodeJS and MongoDB using socket.io.
 
 ### Running
 To use this sample you must have:
@@ -96,9 +96,9 @@ jnodejs-express-mongodb-template/
 ## Technologies
 Platform/Language - [NodeJS](https://nodejs.org/en/)<br />
 Database - [MongoDB](https://www.mongodb.com/)<br />
-Web framework - [Express](http://expressjs.com/)<br />
 Build tool - [npm](https://www.npmjs.com/)<br />
-Template - [Jade](https://naltatis.github.io/jade-syntax-docs/)<br />
+Streaming - [socket.io](http://socket.io/)
+Template - [ejs](http://ejs.co/)<br />
 
 ## Further Learning
 * [Documentation](https://docs.anychart.com)
@@ -107,4 +107,4 @@ Template - [Jade](https://naltatis.github.io/jade-syntax-docs/)<br />
 * [Technical Support](https://anychart.com/support)
 
 ## License
-[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/nodejs-express-mongodb-template/blob/master/LICENSE).
+[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/nodejs-socket-io-mongodb-template/blob/master/LICENSE).
