@@ -58,9 +58,9 @@ Start application:
 $ node app.js
 ```
 
-open browser at http://localhost:3000/
+Open browser at http://localhost:3000/
 
-Now you can see chart updating every 2 seconds, run
+Now you can see chart updating every 2 seconds, update MongoDB data:
 ```
 $ mongo < database_update.js
 ```
@@ -97,7 +97,7 @@ jnodejs-express-mongodb-template/
 Platform/Language - [NodeJS](https://nodejs.org/en/)<br />
 Database - [MongoDB](https://www.mongodb.com/)<br />
 Build tool - [npm](https://www.npmjs.com/)<br />
-Streaming - [socket.io](http://socket.io/)
+Streaming - [socket.io](http://socket.io/)<br />
 Template - [ejs](http://ejs.co/)<br />
 
 ## Further Learning
