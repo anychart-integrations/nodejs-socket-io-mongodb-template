@@ -47,7 +47,6 @@ server.listen(3000);
 
 // update chart data
 setInterval(function(){
-    console.log("hello");
     Fruit.find({}).select('name value -_id').sort({'value': -1}).limit(5).exec(function (err, fruits) {
         if (err) return next(err);
         io_server.emit('update', fruits );
