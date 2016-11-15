@@ -7,19 +7,24 @@ This example shows how to run Anychart library with NodeJS and MongoDB using soc
 ### Running
 To use this sample you must have:
 
-MongoDB installed and running, if not please checkout https://docs.mongodb.com/manual/installation/
+MongoDB installed and running, if not please checkout [MongoDb installation guide](https://docs.mongodb.com/manual/installation/)
 To check your MongoDB installation, run following command in command line:
 ```
 $ mongod -version
 db version v3.0.12 # sample output
 ```
-To check MongoDB status type:
+To check MongoDB is running, type:
 ```
 $ service mongod status
 mongod start/running, process 9559 # sample output
 ```
+or
+```
+$ ps -ef | grep mongod | grep -v grep
+mongodb   1085     1  0 09:51 ?        00:00:52 /usr/bin/mongod --config /etc/mongod.conf # sample output
+```
 
-npm package manager, if not please checkout https://www.npmjs.com/
+npm package manager, if not please visit [official npm site](https://www.npmjs.com/).
 To check your npm installation, run following command in command line:
 ```
 $ npm -v
