@@ -65,11 +65,11 @@ $ node app.js
 
 Open browser at http://localhost:3000/
 
-Now you can see chart updating every 2 seconds, update MongoDB data:
+Now you can see chart updating every 2 seconds, open another console and update MongoDB data:
 ```
 $ mongo < database_update.js
 ```
-And chart on the page will update automatically with new data
+Chart on the page will update automatically with new data
 
 ## Workspace
 Your workspace should look like:
