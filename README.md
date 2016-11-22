@@ -76,24 +76,24 @@ Your workspace should look like:
 ```
 jnodejs-express-mongodb-template/
     config/
-        development.js  # project settings for development
-        pord.js         # project settings for production
-        test.js         # project settings for testing
+        development.js	# project settings for development
+        pord.js			# project settings for production
+        test.js			# project settings for testing
     models/
-        Fruit.js    # data model
+        Fruit.js		# data model
     public/
         css/
-            style.css   # css styles
+            style.css	# css styles
     routes/
-        index.js     # main route
-        static.js   # static files route
+        index.js		# main route
+        static.js		# static files route
     templates/
-        index.ejs     # template for main content
-    app.js      # main js file
-    database_backup.js  # backup for MongoDB
-    database_update.js  # script for update MongoDB data
+        index.ejs		# template for main content
+    app.js				# main js file
+    database_backup.js	# backup for MongoDB
+    database_update.js	# script for update MongoDB data
     LICENSE
-    package.json    # npm project settings
+    package.json		# npm project settings
     README.md
     .gitignore
 ```
