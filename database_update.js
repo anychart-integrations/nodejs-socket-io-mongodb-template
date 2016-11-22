@@ -1,3 +1,4 @@
 use anychart_db
-db.fruits.update({"name":"Lemon"}, {$set: {"value": 16}})
-db.fruits.update({"name":"Orange"}, {$set: {"value": 22}})
+db.fruits.find().forEach(function(fruit) {
+  db.fruits.update({_id: fruit._id}, {$set: {"value": Math.floor(Math.random() * 30)}})
+})
