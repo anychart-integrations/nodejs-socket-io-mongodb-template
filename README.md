@@ -1,4 +1,4 @@
-[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://anychart.com)
+[<img src="https://cdn.anychart.com/images/logo-transparent-segoe.png?2" width="234px" alt="AnyChart - Robust JavaScript/HTML5 Chart library for any project">](https://www.anychart.com)
 # NodeJS basic template
 
 This example shows how to run Anychart library with NodeJS and MongoDB using socket.io.
@@ -73,7 +73,7 @@ Chart on the page will update automatically with new data
 ## Workspace
 Your workspace should look like:
 ```
-jnodejs-express-mongodb-template/
+jnodejs-socket-io-mongodb-template/
     config/
         development.js	# project settings for development
         pord.js			# project settings for production
@@ -108,7 +108,13 @@ Template - [ejs](http://ejs.co/)<br />
 * [Documentation](https://docs.anychart.com)
 * [JavaScript API Reference](https://api.anychart.com)
 * [Code Playground](https://playground.anychart.com)
-* [Technical Support](https://anychart.com/support)
+* [Technical Support](https://www.anychart.com/support)
 
 ## License
-[© AnyChart.com - JavaScript charts](http://www.anychart.com). Released under the [Apache 2.0 License](https://github.com/anychart-integrations/nodejs-socket-io-mongodb-template/blob/master/LICENSE).
+AnyChart NodeJS/socket.io/MongoDB integration sample includes two parts:
+- Code of the integration sample that allows to use Javascript library (in this case, AnyChart) with NodeJS, socket.io framework and MongoDB database. You can use, edit, modify it, use it with other Javascript libraries without any restrictions. It is released under [Apache 2.0 License](https://github.com/anychart-integrations/nodejs-socket-io-mongodb-template/blob/master/LICENSE).
+- AnyChart JavaScript library. It is released under Commercial license. You can test this plugin with the trial version of AnyChart. Our trial version is not limited by time and doesn't contain any feature limitations. Check details [here](https://www.anychart.com/buy/).
+
+If you have any questions regarding licensing - please contact us. <sales@anychart.com>
+
+[![Analytics](https://ga-beacon.appspot.com/UA-228820-4/Integrations/nodejs-socket-io-mongodb-template?pixel&useReferer)](https://github.com/igrigorik/ga-beacon)
